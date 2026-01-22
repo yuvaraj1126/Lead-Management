@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h2>Leads</h2>
+<button class="logout-btn" onclick="logout()">Logout</button>
+
+<input id="leadName" placeholder="Name">
+<input id="leadEmail" placeholder="Email">
+<input id="leadPhone" placeholder="Phone">
+
+<select id="status">
+  <option value="New">New</option>
+  <option value="Contacted">Contacted</option>
+  <option value="Lost">Lost</option>
+</select>
+
+<button onclick="addLead()">Save</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="leadTable"></tbody>
+</table>
+<p style=" text-align: center;">@uv since 2000. All Rights Reserved.</p>
+
+<script src="script.js"></script>
+</body>
+</html>

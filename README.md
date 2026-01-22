@@ -46,3 +46,9 @@ node server.js
 
 //Use postman  to creatae the user for first time 
 POST http://localhost:5000/api/auth/register
+Request Body (JSON):
+
+{
+  "email": "",
+  "password": "Pass@1234"
+}
