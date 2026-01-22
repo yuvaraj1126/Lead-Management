@@ -49,6 +49,12 @@ POST http://localhost:5000/api/auth/register
 Request Body (JSON):
 
 {
+<<<<<<< HEAD
   "email": "",
   "password": "Pass@1234"
 }
+=======
+  "email": "admin@test.com",
+  "password": "Pass@1234"
+}
+>>>>>>> 20c2f9dcf8e7270a536cc91aea84d1f33de1fa91
